@@ -319,9 +319,7 @@
 .searching_field {
 	display: flex;
 	justify-content: flex-start;
-	margin-top: 12px;
-	margin-left: 3px;
-	margin-bottom: 20px;
+	margin: 12px 0 0 3px;
 }
 		.search_auto {
 			width: 413px;
@@ -355,18 +353,113 @@
 		}
 
 
-
-
-
-
 .container {
-	background-color: yellow;
-	height: 65%;
+	margin-top: 15px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
-.brands {
+		.left_sidebar {
+			width: 191px;
+		}
+
+		main {
+			width: 526px;
+			margin-left: -11px;
+			border-radius: 3px;
+			padding-top: 11px;
+			padding-right: 28px;
+			padding-left: 23px; 
+			padding-bottom: 7px;
+			box-sizing: border-box;
+			background: url(../img/background.png) repeat no-repeat;
+			background-color: #a1b3bb;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+				figure {
+					text-align: center;
+					padding-bottom: 21px;
+				}
+
+						figcaption {
+
+						}
+
+								.brand {
+									font-family: "Lucida Sans Unicode";
+									font-size: 15px;
+									color: #206988;
+								}
+
+								.model {
+									font-family: "Lucida Sans Unicode";
+									font-size: 13px;
+									color: #1f2528;
+									margin-top: -8px;
+								    margin-bottom: -3px;
+								    margin-left: 1px;
+								}
+
+								.price {
+									font-family: Arial;
+									font-weight: bold;
+									font-style: italic;
+									font-size: 16px;
+									color: #114165;
+									margin-top: 4px;
+    								margin-left: 9px;
+								}
+
+										.price span {
+											font-size: 12px;
+											margin-left: 4px;
+										}
+
+				.tire_image {
+					width: 137px;
+					height: 126px;
+
+					border: 1px solid #a4aeb1; 
+					border-radius: 7px;
+
+					background-color: #fff;
+				}
+
+						.tire_1 {
+							width: 74px;
+						    height: 118px;
+						    margin: 4px auto;
+
+						    background: url(../img/spritesheet.png);
+						    background-position: -40px -40px;
+						}
+
+						.tire_2 {
+							width: 69px;
+						    height: 118px;
+						    margin: 4px auto;
+
+						    background: url(../img/spritesheet.png);
+						    background-position: -194px -40px;
+						}
+
+						.tire_3 {
+							width: 79px;
+						    height: 118px;
+						    margin: 4px auto;
+
+						    background: url(../img/spritesheet.png);
+						    background-position: -343px -40px;
+						}
+
+		.right_sidebar {
+			width: 182px;
+		}
+
+.brand_logos {
 	background-color: magenta;
 	height: 5%;
 }
