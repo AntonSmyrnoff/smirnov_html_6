@@ -222,105 +222,142 @@
 				}
 				/*---------------END OF HEADER----------------*/
 
-.main-menu {
-	width: 911px;
-	height: 34px;
-	margin-top: 9px;
-	margin-left: -2px;
-	margin-bottom: 20px;
-	box-sizing: border-box;
-	display: flex;
-	justify-content: flex-start;
 
-
-	border: 1px solid rgb(13, 22, 66);
-	border-radius: 4px;
-
-	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
-	box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-		nav {
-			width: 500px;
+		/*------------NAVBAR--------------*/
+		.main-menu {
+			width: 911px;
+			height: 34px;
+			margin-top: 9px;
+			margin-left: -2px;
+			box-sizing: border-box;
 			display: flex;
-			margin-left: 131px;
+			justify-content: flex-start;
+
+			border: 1px solid rgb(13, 22, 66);
+			border-radius: 4px;
+
+			background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+			background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+			background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+			box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
 		}
 
-				nav a {
-					padding: 0 13px;
-					display: flex;
-				  	justify-content: center;
-				  	flex-direction: column;
-
-				  	font-family: "Lucida Sans Unicode", Arial, sans-serif;
-				  	font-size: 14px;
-				  	text-decoration: none;
-				  	color: #b1bcc0;
+				nav {
+					width: 500px;
+					margin-left: 131px;
+					display: flex;			
 				}
 
-						nav a:hover {
-							color: #ffffff;
+						nav a {
+							padding: 0 13px;
+							display: flex;
+						  	justify-content: center;
+						  	flex-direction: column;
+
+						  	font-family: "Lucida Sans Unicode", Arial, sans-serif;
+						  	font-size: 14px;
+						  	text-decoration: none;
+						  	color: #b1bcc0;
 						}
 
-						.active {
-							height: 26px;
-							align-self: center;
-    						border-radius: 13px;
-							background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-							background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-							background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-						}
+								nav a:hover {
+									color: #ffffff;
+								}
 
-		.cart {
-			width: 220px;
-			margin-left: 50px;
-			display: flex;
-			position: relative;
-			top: 28%;
+								.active {
+									height: 26px;
+									align-self: center;
+		    						
+		    						border-radius: 13px;
+									
+									background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+									background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+									background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+								}
 
-			/* background-color: red; */
+				.cart {
+					margin-left: 50px;
+					display: flex;
+					position: relative;
+					top: 28%;
 
-			font-family: Arial, sans-serif;
-			font-size: 12px;
-			color: #8a9296;
-		}
+					font-family: Arial, sans-serif;
+					font-size: 12px;
+					color: #8a9296;
+				}
 
-					.cart p:first-child {
-						font-size: 20px;
-						margin-top: -4px;
-						
-					}
-
-							.cart p:first-child a {
-								text-decoration: none;
-								color: #3993d2;
+							.cart p:first-child {
+								font-size: 20px;
+								margin-top: -4px;
+								
 							}
 
-					.cart p:nth-child(2) {
-						margin-left: 10px;
-					}
+									.cart p:first-child a {
+										text-decoration: none;
+										color: #3993d2;
+									}
 
-					.cart p:last-child {
-				  		margin-left: 13px;
-					}
+							.cart p:nth-child(2) {
+								margin-left: 10px;
+							}
 
-						.cart span {
-							font-size: 12px;
-							color: #0d5a8f;
-						}
+							.cart p:last-child {
+						  		margin-left: 13px;
+							}
 
-						.cart p:last-child span {
-							margin-left: 8px;
-						}	
+								.cart span {
+									font-size: 12px;
+									color: #0d5a8f;
+								}
+
+								.cart p:last-child span {
+									margin-left: 8px;
+								}	
+
+								/*------------END OF NAVBAR--------------*/
 
 .searching_field {
-	background-color: cyan;
-	height: 9%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	margin-top: 12px;
+	margin-left: 3px;
+	margin-bottom: 20px;
 }
+		.search_auto {
+			width: 413px;
+		    height: 132px;
+		    border: 1px solid rgb(156, 156, 157);
+		    border-radius: 17px;
+		    background-color: rgb(255, 255, 255);
+		    box-shadow: 2px 3px 5px 0px rgba(104, 104, 104, 0.75);
+		}
+		
+		.search_tires {
+			width: 191px;
+  			height: 134px;
+  			margin-left: 15px;
+  			margin-top: -1px;
+  			border: 1px solid rgb(156, 156, 157);
+  			border-radius: 18px;
+  			background-color: rgb(255, 255, 255);
+  			box-shadow: 2px 3px 5px 0px rgba(150, 150, 150, 0.75);
+		}
+
+		.search_disks {
+			width: 265px;
+  			height: 133px;
+  			margin-left: 10px;
+    		margin-top: -1px;
+  			border: 1px solid rgb(156, 156, 157);
+  			border-radius: 16px;
+  			background-color: rgb(255, 255, 255);
+  			box-shadow: 2px 3px 5px 0px rgba(150, 150, 150, 0.75);
+		}
+
+
+
+
+
 
 .container {
 	background-color: yellow;
