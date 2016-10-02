@@ -12,7 +12,6 @@
          url('lucida_sans_unicode_regular-webfont.svg#lucida_sans_unicoderegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .wrapper {
@@ -22,174 +21,206 @@
 	box-sizing: border-box;
 }
 
-header {
-	height: 273px;
-}
-
-		.top-part {
-			height: 25px;
-			margin-top: 0;
-			margin-bottom: 14px;
-			margin-top: -3px;
-			display: flex;
-			justify-content: space-between;
+		/*----------------HEADER-----------------*/
+		header {
+			height: 273px;
 		}
-					
-				.phone {
-					width: 295px;	
-					margin-top: 2px;
-				    padding-top: 2px;
-				    padding-left: 6px;
 
+				.top-part {
+					height: 25px;
+					margin: -3px 0 14px 0;
+					display: flex;
+					justify-content: space-between;
 				}
-					
-						.phone p {
-							display: inline-block;
-							vertical-align: middle;
-							margin-bottom: -6px;
-						    letter-spacing: 0.44px;
-						    font-family: Arial;
-						    font-size: 18px;
-						    color: #5e696d;
+							
+						.phone {
+							width: 295px;	
+							margin-top: 2px;
+						    padding: 2px 0 0 6px;
+						}
+							
+								.phone p {
+									display: inline-block;
+									margin-bottom: -6px;
+								    
+								    letter-spacing: 0.44px;
+								    font-family: Arial;
+								    font-size: 18px;
+								    color: #5e696d;
+
+								    vertical-align: middle;
+								}
+
+								.fa-phone {
+									width: 21px;
+									height: 21px;
+									transform: rotate(10deg);
+									
+									border-radius: 10px;
+									
+									background: linear-gradient(to bottom, rgba(12,51,87,1) 0%, rgba(31,103,134,1) 100%);
+									
+									color: white;
+									text-align: center;
+								}
+
+								.fa-phone::before {
+									vertical-align: middle;
+								}
+
+						.avtoriz {
+							    width: 496px;
+							    height: 27px;
+							    box-sizing: border-box;
+							    margin-left: -7px;
+							    margin-top: 2px;
+							    display: flex;
+							    align-items: center;
+							    
+							    border-radius: 4px;
+							    border-top: 1px solid #a6c3cf;
+							    border-bottom: 1px solid #596d80;
+							    border-left: 1px solid #d4dde3;
+							    
+							    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+							    
+							    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+							    font-size: 11px;
+
+							    box-shadow: 3px 2px 3px 0px rgba(150, 150, 150, 0.75);
 						}
 
+								.fa-user {
+									color: white;
+								}
 
-						.fa-phone {
-							width: 21px;
-							height: 21px;
-							border-radius: 10px;
-							background: linear-gradient(to bottom, rgba(12,51,87,1) 0%, rgba(31,103,134,1) 100%);
-							color: white;
-							text-align: center;
-							transform: rotate(10deg);
+								.avtoriz p:first-child {
+									margin: 2px 3px 0 7px;
+
+									font-size: 18px;
+								}
+
+								.entry_reg {
+									vertical-align: middle;
+								}
+
+								#login,
+								#password {
+									width: 115px;
+								    height: 18px;
+								    padding-left: 5px;
+								    margin: -1px 3px 0 0;
+								    box-sizing: border-box;
+								    
+								    border: 1px solid #82949c;
+							    }
+
+								#password {
+									width: 114px;
+									margin-right: 7px;
+								}
+								
+											/*placeholder's style*/
+											::-webkit-input-placeholder {position: relative;
+																		 top: 30%;
+																		 transform: translateY(-50%);
+																		 font-size: 11px;
+																		 color: #97a2a6;
+																		 }
+											::-moz-placeholder          {position: relative;
+																		 top: 30%;
+																		 transform: translateY(-50%);
+																		 font-size: 11px;
+																		 color: #97a2a6;}/* Firefox 19+ */
+											:-moz-placeholder           {position: relative;
+																		 top: 30%;
+																		 transform: translateY(-50%);
+																		 font-size: 11px;
+																		 color: #97a2a6;}/* Firefox 18- */
+											:-ms-input-placeholder      {position: relative;
+																		 top: 30%;
+																		 transform: translateY(-50%);
+																		 font-size: 11px;
+																		 color: #97a2a6;}
+
+								.entry {
+									margin-right: 20px;
+
+									color: #ffffff;
+								}
+
+								.entry a {
+									text-decoration: none;
+									color: #ffffff;
+									letter-spacing: -0.2px;
+								}
+
+								.forget_pass {
+								    margin-top: 1px;
+								    margin-left: 1px;
+								    
+								    border-bottom: 1px solid #bfbfbf; /*for underline on required level under link*/
+
+								    line-height: 1;
+								}
+
+								.forget_pass a {
+									font-size: 12px;
+									color: #bfbfbf;
+									text-decoration: none;
+								}
+
+						.navi {
+							    width: 75px;
+							    height: 19px;
+							    margin-top: 4px;
+							    margin-right: 7px;
+							    position: relative;
+							    
+							    border: 1px solid rgb(189, 196, 199);
+							    border-radius: 25px;
+
+							    background-color: rgb(255, 255, 255);
+  
+							    text-align: center;
+							    font-size: 12px;
 						}
 
-						.fa-phone::before {
-							vertical-align: middle;
-						}
+								.navi:after {	/*for box-shadow of top-left and bottom-right corners*/			
+									width: 90%;
+								    height: 90%;
+									position: absolute;
+								    left: 3px;
+								    top: 5%;
+								    transform: rotate(4deg);
+							    
+								    border-radius: 25px;
 
-		.avtoriz {
-			    width: 496px;
-			    height: 27px;
-			    border-radius: 4px;
-			    border-top: 1px solid #a6c3cf;
-			    border-bottom: 1px solid #596d80;
-			    border-left: 1px solid #d4dde3;
-			    box-sizing: border-box;
-			    box-shadow: 3px 2px 3px 0px rgba(150, 150, 150, 0.75);
-			    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-			    margin-left: -7px;
-			    margin-top: 2px;
-			    display: flex;
-			    align-items: center;
-			    font-family: "Lucida Sans Unicode", Arial, sans-serif;
-			    font-size: 11px;
-		}
+								    z-index: -1;
+								    content: "";
+								    box-shadow: 0px 1px 10px 0px #777;
+								}
 
-			.fa-user {
-				color: white;
-				/* font-size: 20px; */
-			}
+								.navi a {
+									text-decoration: none;
+								}
 
-			.avtoriz p:first-child {
-				font-size: 18px;
-				margin: 2px 3px 0 7px;
-			}
+								.fa-home, 
+								.fa-sitemap,
+								.fa-envelope-o {
+									margin: 3px 4px;
 
-			.entry_reg {
-				vertical-align: middle;
-			}
+									color: #76848a;
+								}
 
-			#login,
-			#password {
-				width: 115px;
-			    height: 18px;
-			    padding-left: 5px;
-			    border: 1px solid #82949c;
-			    box-sizing: border-box;
-			    margin-right: 3px;
-			    margin-top: -1px;
-			}
+				.picture {
+					height: 237px;
+					width: 1000px;
+					margin-bottom: 0;
 
-			#password {
-				width: 114px;
-				margin-right: 7px;
-			}
-
-				::-webkit-input-placeholder {font-size: 11px;
-											 color: #97a2a6;}
-				::-moz-placeholder          {font-size: 11px;
-											 color: #97a2a6}/* Firefox 19+ */
-				:-moz-placeholder           {font-size: 11px;
-											 color: #97a2a6}/* Firefox 18- */
-				:-ms-input-placeholder      {font-size: 11px;
-											 color: #97a2a6}
-
-			.entry {
-				color: #ffffff;
-    			margin-right: 20px;
-			}
-
-			.entry a {
-				text-decoration: none;
-				color: #ffffff;
-				letter-spacing: -0.2px;
-			}
-
-
-			.forget_pass {
-			    margin-top: 1px;
-			    margin-left: 1px;
-			    line-height: 1;
-			    border-bottom: 1px solid #bfbfbf; 
-			}
-
-			.forget_pass a {
-				font-size: 12px;
-				color: #bfbfbf;
-				text-decoration: none;
-			}
-
-		.navi {
-			    width: 75px;
-			    height: 19px;
-			    border: 1px solid rgb(189, 196, 199);
-			    background-color: rgb(255, 255, 255);
-			    position: relative;
-			    border-radius: 25px;
-			    margin-top: 4px;
-			    margin-right: 7px;
-
-		}
-
-				.navi:after {
-					    z-index: -1;
-					    position: absolute;
-					    content: "";
-					    left: 3px;
-					    top: 5%;
-					    background: #777;
-					    opacity: 0.522;
-					    box-shadow: 1px 1px 10px 1px #777;
-					    transform: rotate(4deg);
-					    width: 90%;
-					    height: 90%;
-					    border-radius: 25px;
+					background: url(../img/main_picture.png) no-repeat;
 				}
-
-
-
-
-			
-
-				
-
-		.picture {
-			height: 237px;
-			max-width: 1000px;
-			background: url(../img/main_picture.png);
-			margin-bottom: 0;
-		}
+				/*---------------END OF HEADER----------------*/
 
 nav {
 	/* background-color: gray; */
