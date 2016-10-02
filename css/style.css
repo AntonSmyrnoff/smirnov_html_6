@@ -222,10 +222,98 @@
 				}
 				/*---------------END OF HEADER----------------*/
 
-nav {
-	/* background-color: gray; */
-	height: 2%;
+.main-menu {
+	width: 911px;
+	height: 34px;
+	margin-top: 9px;
+	margin-left: -2px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+
+
+	border: 1px solid rgb(13, 22, 66);
+	border-radius: 4px;
+
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+		nav {
+			width: 500px;
+			display: flex;
+			margin-left: 131px;
+		}
+
+				nav a {
+					padding: 0 13px;
+					display: flex;
+				  	justify-content: center;
+				  	flex-direction: column;
+
+				  	font-family: "Lucida Sans Unicode", Arial, sans-serif;
+				  	font-size: 14px;
+				  	text-decoration: none;
+				  	color: #b1bcc0;
+				}
+
+						nav a:hover {
+							color: #ffffff;
+						}
+
+						.active {
+							height: 26px;
+							align-self: center;
+    						border-radius: 13px;
+							background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+							background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+							background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+						}
+
+		.cart {
+			width: 220px;
+			margin-left: 50px;
+			display: flex;
+			position: relative;
+			top: 28%;
+
+			/* background-color: red; */
+
+			font-family: Arial, sans-serif;
+			font-size: 12px;
+			color: #8a9296;
+		}
+
+					.cart p:first-child {
+						font-size: 20px;
+						margin-top: -4px;
+						
+					}
+
+							.cart p:first-child a {
+								text-decoration: none;
+								color: #3993d2;
+							}
+
+					.cart p:nth-child(2) {
+						margin-left: 10px;
+					}
+
+					.cart p:last-child {
+				  		margin-left: 13px;
+					}
+
+						.cart span {
+							font-size: 12px;
+							color: #0d5a8f;
+						}
+
+						.cart p:last-child span {
+							margin-left: 8px;
+						}	
 
 .searching_field {
 	background-color: cyan;
