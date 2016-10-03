@@ -363,6 +363,75 @@
 			width: 191px;
 		}
 
+				.production {
+					width: 182px;
+					height: 27px;
+					display: flex;
+					justify-content: flex-start;
+					
+					border: 1px solid rgb(121, 135, 141);
+					border-radius: 14px; 
+					box-sizing: border-box;
+					box-shadow: 2px 3px 3px 0px rgba(150, 150, 150, 0.75);
+				}
+
+						.production p {
+							font-family: "Lucida Sans Unicode";
+							font-size: 13px;
+							color: #114165;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							margin-right: 3px;
+						}
+
+						.icon {
+							width: 22px;
+							height: 21px;
+							margin: auto; 
+							border-radius: 50%;
+							background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+							background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+							background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+						}
+
+						.fa-file-text-o {
+							margin-left: 6px;
+							color: #ffffff;
+						}
+
+
+						.catalog {
+							margin-top: 10px;
+						}
+
+						.catalog_item {
+							width: 152px;
+  							height: 30px;
+  							border: 1px solid rgb(121, 135, 141);
+  							border-radius: 13px;
+
+							list-style: none;
+
+  							margin-bottom: 80px;
+  							box-sizing: border-box;
+  							padding-top: 6px;
+
+						}
+
+								.catalog_item ul {
+									margin-top: 20px;
+									margin-left: 38px;
+
+								}
+
+
+
+
+
+
+
+
 		main {
 			width: 526px;
 			margin-left: -11px;
@@ -383,10 +452,6 @@
 					text-align: center;
 					padding-bottom: 21px;
 				}
-
-						figcaption {
-
-						}
 
 								.brand {
 									font-family: "Lucida Sans Unicode";
