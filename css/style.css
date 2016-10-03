@@ -361,13 +361,16 @@
 
 		.left_sidebar {
 			width: 191px;
+			font-family: "Lucida Sans Unicode";
 		}
 
 				.production {
-					width: 182px;
-					height: 27px;
+					width: 183px;
+				    height: 26px;
+				    margin-top: 3px;
+				    margin-left: -2px;
+				    padding-left: 4px;
 					display: flex;
-					justify-content: flex-start;
 					
 					border: 1px solid rgb(121, 135, 141);
 					border-radius: 14px; 
@@ -376,19 +379,24 @@
 				}
 
 						.production p {
-							font-family: "Lucida Sans Unicode";
+							
 							font-size: 13px;
+							margin: 2px 0 0 -1px;
 							color: #114165;
 							display: flex;
 							flex-direction: column;
 							justify-content: center;
-							margin-right: 3px;
 						}
 
+						.production p:last-child {
+							margin-left: 3px;
+						}
+
+
+
 						.icon {
-							width: 22px;
-							height: 21px;
-							margin: auto; 
+							width: 20px;
+							height: 20px;
 							border-radius: 50%;
 							background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
 							background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
@@ -396,7 +404,7 @@
 						}
 
 						.fa-file-text-o {
-							margin-left: 6px;
+							margin-left: 5px;
 							color: #ffffff;
 						}
 
@@ -405,25 +413,40 @@
 							margin-top: 10px;
 						}
 
+								.catalog>li {
+									list-style: none;
+								}
+
 						.catalog_item {
-							width: 152px;
-  							height: 30px;
+							width: 150px;
+  							height: 28px;
+  							margin-top: 14px;
   							border: 1px solid rgb(121, 135, 141);
   							border-radius: 13px;
 
-							list-style: none;
+							background: url(../img/marker.png) no-repeat no-repeat;
+							background-position: 3px 1px;
 
-  							margin-bottom: 80px;
+							font-size: 14px;
+							color: #114165;
+
   							box-sizing: border-box;
-  							padding-top: 6px;
+  							padding-top: 4px;
+    						padding-left: 29px;
 
 						}
 
-								.catalog_item ul {
-									margin-top: 20px;
-									margin-left: 38px;
+								li ul {
+									margin-left: 48px;
+								    margin-bottom: -15px;
+								    font-size: 13px;
+								    color: #465961;
 
 								}
+
+										li ul li {
+											margin: 3px 0 6px 0;
+										}
 
 
 
