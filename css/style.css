@@ -490,6 +490,7 @@
 				figure {
 					text-align: center;
 					padding-bottom: 20px;
+					margin-left: -1px;
 				}
 
 								.brand {
@@ -529,7 +530,7 @@
 						.tire_bottom figcaption {
 							margin-left: 2px;
 						}
-						
+
 				.tire_image {
 					width: 137px;
 					height: 126px;
@@ -540,31 +541,37 @@
 					background-color: #fff;
 				}
 
-						.tire_1 {
-							width: 78px;
-						    height: 118px;
-						    margin: 4px auto;
+						.tire_image .tire_1 {
+							display: block;
+							text-align: center;
+							height: 100%;
+							width: 100%;
+						    margin: 4px 0;
 
 						    background: url(../img/spritesheet.png);
-						    background-position: -40px -40px;
+						    background-position: -10px -39px;
 						}
 
-						.tire_2 {
-							width: 73px;
-						    height: 118px;
-						    margin: 4px auto;
+						.tire_image .tire_2 {
+							display: block;
+							text-align: center;
+							height: 100%;
+							width: 100%;
+						    margin: 4px 0;
 
 						    background: url(../img/spritesheet.png);
-						    background-position: -194px -40px;
+						    background-position: -161px -41px;
 						}
 
-						.tire_3 {
-							width: 81px;
-						    height: 118px;
-						    margin: 4px auto;
+						.tire_image .tire_3 {
+							display: block;
+							text-align: center;
+							height: 100%;
+							width: 100%;
+						    margin: 4px 0;
 
 						    background: url(../img/spritesheet.png);
-						    background-position: -343px -40px;
+						    background-position: -316px -41px;
 						}
 
 		.right_sidebar {
@@ -731,14 +738,51 @@
 
 
 .brand_logos {
-	background-color: magenta;
-	height: 5%;
+	margin-top: 39px;
+    margin-left: 2px;
+    text-align: center;
+
 }
 
 footer {
-	background-color: lightblue;
-	height: 5%;
+	height: 100px;
+	margin-top: 21px;
+	padding-top: 8px;
+	background: url(../img/footer_back.png) repeat no-repeat;
+	text-align: center;
+
+	font-family: Arial;
+
+
 }
+
+		.nav_bottom {
+			margin-left: 3px;
+		} 
+
+			.nav_bottom a,
+			.nav_bottom span {
+				font-size: 12px;
+				text-decoration: none;
+				padding: 0 4px;
+				color: #bec6c9;
+			}
+
+			.nav_bottom a:hover {
+				text-decoration: underline;
+			}
+
+					.nav_bottom .active_nav_bottom {
+						color: #52abcb;
+					}
+
+		footer p {
+			font-size: 10px;
+			color: #7f4740;
+			margin-top: 13px;
+		}	
+
+
 
 
 
