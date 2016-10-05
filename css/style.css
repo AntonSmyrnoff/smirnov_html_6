@@ -602,6 +602,7 @@
 
 						.right_sidebar .catalog {
 							margin-top: 15px;
+							font-size: 13px;
 						}
 
 								.catalog>li {
@@ -628,6 +629,7 @@
 
 						}
 
+
 								.right_sidebar li ul {
 									margin-left: 42px;
 								    margin-bottom: -3px;
@@ -637,18 +639,67 @@
 								}
 
 										.right_sidebar li ul li {
-											margin: 5px 0 5px 0;
+											margin: 5px 0;
 										}
 
-					form {
-						display: flex;
-						flex-direction: column;
+					.checkbox {
 						margin-left: 20px;
-					}		
-
-							label span {
-								margin-left: 10px;
+						margin-bottom: -3px;
+						color: #465961;
+					}	
+					
+					
+							input[type=checkbox] {
+								margin-top: 6px;
+								margin-left: 3px;
+								display: none;
 							}
+
+							input[type="checkbox"] + label span {
+							    display:inline-block;
+							    width:7px;
+							    height:7px;
+							    margin:-1px 14px -1px -10px;
+							    border: 1px solid #1c4360;
+							    -webkit-box-shadow: inset 2px 2px 1px -1px rgba(131,131,131,1);
+								-moz-box-shadow: inset 2px 2px 1px -1px rgba(131,131,131,1);
+								box-shadow: inset 2px 2px 1px -1px rgba(131,131,131,1);
+							    cursor:pointer;
+							    position: relative;
+							}
+
+							.fa-check {
+								position: absolute;
+								bottom: -25%;
+								left: -25%;
+								visibility: hidden;
+							}
+
+
+							input[type="checkbox"]:checked + label .fa-check {
+								visibility: visible;
+							}	
+							/* input[type="checkbox"]:checked + label span {
+							    content: "\2713";
+							    font-size: 15px;
+							    color: #f3f3f3;
+							    text-align: center;
+							    line-height: 15px;
+							
+							} */
+
+
+							#label_1 {
+								margin-top: 7px;
+							}
+
+							input[type="checkbox"]+label {
+								display: inline-block;
+								margin-left: 15px;
+								margin-top: 5px; 
+							}	
+
+
 
 
 
