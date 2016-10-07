@@ -217,9 +217,23 @@
 					height: 237px;
 					width: 1000px;
 					margin-bottom: 0;
+					position: relative;
 
 					background: url(../img/main_picture.png) no-repeat;
 				}
+
+						.picture div {
+							height: 67px;
+							width: 265px;
+							position: absolute;
+							top: 43%;
+						}
+
+						.picture div a {
+							display: block;
+							height: 100%;
+							width: 100%;
+						}
 				/*---------------END OF HEADER----------------*/
 
 
@@ -454,6 +468,12 @@
 												.left_sidebar li ul li a {
 													text-decoration: none;
 								    				color: #465961;
+												}
+
+												.left_sidebar li ul li a:hover {
+													text-decoration: underline;
+													margin-left: 5px;
+													/* font-size: 14px; */
 												}
 
 												.left_sidebar li ul li a:focus {
