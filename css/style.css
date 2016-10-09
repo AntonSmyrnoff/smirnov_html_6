@@ -408,8 +408,8 @@
 					margin-right: 17px;
 					border-bottom: 0;
 					border-right: 0;
-					border-top: 1px solid black;
-					border-left: 1px solid black;
+					border-top: 1px solid #949494;
+					border-left: 1px solid #757575;
 					box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75); 
 				}
 
@@ -418,15 +418,18 @@
 						font-style: italic;
 						font-size: 14px;
 						align-self: flex-end;
-						margin-left: 330px;
 						margin-bottom: 5px;
-					
-					
+					}
+
+					.search_auto p:last-child {
+						margin-left: 330px;
 					}
 
 						.search>p:last-child a{
 							color: #154467;
 						}
+
+
 
 
 				#year,
@@ -449,6 +452,17 @@
   			background-color: rgb(255, 255, 255);
   			box-shadow: 2px 3px 5px 0px rgba(150, 150, 150, 0.75);
 		}
+
+		.search_tires select {
+					    height: 17px;
+					    /* margin-right: 17px; */
+					    border-bottom: 0;
+					    border-right: 0;
+					    border-top: 1px solid #949494;
+					    border-left: 1px solid #757575;
+					    box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75);
+					    align-self: center;
+					}
 
 				.head_tires {
 					margin-left: 8px;
@@ -488,11 +502,7 @@
 								margin-left: 1px;
 							}
 
-						.checkbox_3 {
-							font-family: "Lucida Sans Unicode";
-							font-size: 12px;
-							color: #000;
-						}
+
 
 
 
@@ -501,6 +511,7 @@
 
 				.season {
 					display: flex;
+					height: 49px;
 					font-family: "Lucida Sans Unicode";
 					font-size: 10px;
 					color: #000;
@@ -515,8 +526,6 @@
 						}
 
 						.checkbox_3 input[type=checkbox] {
-								margin-top: 6px;
-								margin-left: 3px;
 								display: none;
 							}
 
@@ -524,7 +533,7 @@
 							    display: inline-block;
 							    width: 10px;
 							    height: 10px;
-							    margin: -1px 14px -1px -10px;
+							    margin: -1px 3px -1px -10px;
 							    border-left: 1px solid #afafaf;
 							    border-top: 1px solid #707070;
 							    -webkit-box-shadow: inset 2px 2px 1px -1px rgba(131,131,131,1);
@@ -548,9 +557,12 @@
 
 
 							.checkbox_3 input[type="checkbox"]+label {
-								display: inline-block;
 								margin-left: 24px;
 							}
+
+					.search_tires p:last-child {
+						margin-left: 115px;
+					}		
 
 
 
@@ -565,7 +577,74 @@
   			border-radius: 16px;
   			background-color: rgb(255, 255, 255);
   			box-shadow: 2px 3px 5px 0px rgba(150, 150, 150, 0.75);
+  			display: flex;
+   			justify-content: space-between;
 		}
+
+				.head_disks {
+					margin-left: -5px;
+				}
+
+				.search_disks_left_side {
+					width: 170px;
+				    height: 107px;
+				    margin-top: 4px;
+				    font-family: Arial;
+				    font-size: 10px;
+				    margin-left: 14px;
+				    border-right: 1px solid #bdc6ca;
+				}
+
+				.disk_diameter,
+				.holes_number,
+				.holes_diameter {
+					display: flex;
+			    	justify-content: space-between;
+				}
+
+				.center_hole_diameter,
+				.disk_radius {
+					display: flex;
+					flex-direction: column;
+					margin-bottom: 2px;
+					margin-top: 4px;
+				}
+
+				
+				.disk_diameter label,
+				.holes_number label,
+				.holes_diameter label,
+				.center_hole_diameter label,
+				.disk_radius label  {
+					/* font-family: "Lucida Sans Unicode"; */
+					font-size: 10px;
+					color: #010101;
+					/* align-self: center; */
+				}
+
+				    .search_disks select {
+				    	width: 57px;
+					    height: 17px;
+					    margin-right: 17px;
+					    border-bottom: 0;
+					    border-right: 0;
+					    border-top: 1px solid #949494;
+					    border-left: 1px solid #757575;
+					    box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75);
+					    align-self: center;
+					}    
+
+					.search_disks_right_side>p:last-child {
+						display: block;
+						font-style: italic;
+						font-size: 14px;
+						align-self: flex-end;
+						margin-bottom: 5px;
+					}
+
+					.search_disks_right_side>p:last-child a{
+							color: #154467;
+						}
 
 
 .container {
