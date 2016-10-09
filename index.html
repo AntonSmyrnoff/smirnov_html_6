@@ -63,17 +63,222 @@
 		
 
 		<div class="searching_field"> <!-- consists of three form-sections -->
-			<section class="search_auto">
-				
+			<section class="search search_auto">
+				<p class="obj">Диски:</p>
+				<p class="head">Поиск по автомобилю</p>
+				<p class="obj">Шины:</p>
+				<div class="auto_disks">
+					<div class="auto_list">
+						<label for="auto_list">Марка<span class="of_what">авто:</span></label>
+						<select name="auto" id="auto_list">
+							<option value="0"></option>
+							<option value="auto1">Марка 1</option>
+							<option value="auto2">Марка 2</option>
+							<option value="auto3">Марка 3</option>
+							<option value="auto4">Марка 4</option>
+							<option value="auto5">Марка 5</option>
+							<option value="auto6">Марка 6</option>
+							<option value="auto7">Марка 7</option>
+							<option value="auto8">Марка 8</option>
+						</select>
+					</div>	
+					
+					
+					<div class="model_list">
+						<label for="model_list">Модель<br><span class="of_what">автомобиля:</span></label>
+						<select name="model" id="model_list">
+							<option value="0"></option>
+							<option value="model1">Модель 1</option>
+							<option value="model2">Модель 2</option>
+							<option value="model3">Модель 3</option>
+							<option value="model4">Модель 4</option>
+							<option value="model5">Модель 5</option>
+						</select>
+					</div>	
+					
+					
+					<div class="year">
+						<label for="year">Год выпуска<br><span class="of_what">автомобиля:</span></label>
+						<select name="year" id="year">
+							<option value="0"></option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value=">2007">Старше 2007</option>
+						</select>	
+					</div>	
+					
+					
+					<div class="compl">
+						<label for="compl"><span>Комплектация:</span></label>
+						<select name="compl" id="compl">
+							<option value="0"></option>
+							<option value="base">Базовая</option>
+							<option value="compl1">Комплектация 1</option>
+							<option value="compl2">Комплектация 2</option>
+							<option value="compl3">Комплектация 3</option>
+							<option value="compl4">Комплектация 4</option>
+						</select>
+					</div>		
+					
+				</div>
+				<div class="auto_tires">
+					<div class="auto_list">
+						<label for="auto_list_1">Марка <span class="of_what">авто:</span></label>
+						<select name="auto" id="auto_list_1">
+							<option value="0"></option>
+							<option value="auto1">Марка 1</option>
+							<option value="auto2">Марка 2</option>
+							<option value="auto3">Марка 3</option>
+							<option value="auto4">Марка 4</option>
+							<option value="auto5">Марка 5</option>
+							<option value="auto6">Марка 6</option>
+							<option value="auto7">Марка 7</option>
+							<option value="auto8">Марка 8</option>
+						</select>
+						
+					</div>	
+
+					<div class="model_list">
+						<label for="model_list_1">Модель <br><span class="of_what">автомобиля:</span></label>
+						<select name="model" id="model_list_1" >
+							<option value="0"></option>
+							<option value="model1">Модель 1</option>
+							<option value="model2">Модель 2</option>
+							<option value="model3">Модель 3</option>
+							<option value="model4">Модель 4</option>
+							<option value="model5">Модель 5</option>
+						</select>
+						
+					</div>	
+
+					<div class="year">
+						<label for="year1">Год выпуска <br><span class="of_what">автомобиля:</span></label>
+						<select name="year" id="year1">
+							<option value="0"></option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value=">2007">Старше 2007</option>
+						</select>	
+						
+					</div>	
+
+					<div class="compl">
+						<label for="compl1">Комплектация:</label>
+						<select name="compl" id="compl1">
+							<option value="0"></option>
+							<option value="base">Базовая</option>
+							<option value="compl1">Комплектация 1</option>
+							<option value="compl2">Комплектация 2</option>
+							<option value="compl3">Комплектация 3</option>
+							<option value="compl4">Комплектация 4</option>
+						</select>	
+						
+					</div>	
+				</div>
+				<p><a href="">ПОИСК...</a></p>
 			</section>
 			
 
-			<section class="search_tires">
+			<section class="search search_tires">
 				
+				<p class="head head_tires">ПОИСК ШИН</p>
+
+				<div class="dimension">
+						<label for="thickness">Размер:</label>
+						<select name="thickness" id="thickness">
+							<option value=145>145</option>
+							<option value=155>155</option>
+							<option value=165>165</option>
+							<option value=175>175</option>
+							<option value=185>185</option>
+							<option value=195>195</option>
+							<option value=205>205</option>
+							<option value=215>215</option>
+							<option value=225>225</option>
+							<option value=235>235</option>
+							<option value=240>240</option>
+							<option value=245>245</option>
+							<option value=255>255</option>
+							<option value=265>265</option>
+							<option value=275>275</option>
+							<option value=285>285</option>
+							<option value=295>295</option>
+							<option value=305>305</option>
+						</select>
+						/
+						<select name="height" id="height">
+							<option value=35>35</option>
+							<option value=40>40</option>
+							<option value=45>45</option>
+							<option value=50>50</option>
+							<option value=55>55</option>
+							<option value=60>60</option>
+							<option value=65>65</option>
+							<option value=70>70</option>
+							<option value=75>75</option>
+							<option value=80>80</option>
+							<option value=85>85</option>
+						</select>
+					</div>	
+
+					<div class="radius">
+						<label for="radius">R</label>
+						<select name="radius" id="radius">
+							<option value=1>12</option>
+							<option value=2>13</option>
+							<option value=3>14</option>
+							<option value=4>15</option>
+							<option value=25>15 б\у</option>
+							<option value=17>15C</option>
+							<option value=5>16</option>
+							<option value=20>16C</option>
+							<option value=6>17</option>
+							<option value=27>17 б\у</option>
+							<option value=21>17.5</option>
+							<option value=7>18</option>
+							<option value=28>18 б\у</option>
+							<option value=8>19</option>
+							<option value=9>20</option>
+							<option value=10>21</option>
+							<option value=11>22</option>
+						</select>
+					</div>
+
+					<div class="season">
+						<p>Сезон:</p>
+						<div class="checkbox_3">
+								<input type="checkbox" name="season" id="summer">
+								<label for="summer"><span><i class="fa fa-check" aria-hidden="true"></i></span>лето</label>
+								<br>
+
+								<input type="checkbox" name="season" id="winter">
+								<label for="winter"><span><i class="fa fa-check" aria-hidden="true"></i></span>зима</label>
+								<br>
+								
+								<input type="checkbox" name="season" id="all_season"><label for="all_season"><span><i class="fa fa-check" aria-hidden="true"></i></span>всесез</label>							
+						</div>
+
+					</div>
+
+					<p><a href="">ПОИСК...</a></p>	
 			</section>
 			
 
-			<section class="search_disks">
+			<section class="search search_disks">
 				
 			</section>
 		</div>
@@ -229,7 +434,7 @@
 					<ul class="catalog">
 						<li>
 							<div class="catalog_item">ШИНЫ</div>							
-							<div class="checkbox checkbox_1">
+							<div class="checkbox_1">
 								<input type="checkbox" name="tires" id="brand1_1">
 								<label for="brand1_1"><span><i class="fa fa-check" aria-hidden="true"></i></span>Бренд 1</label>
 								<br>
@@ -244,7 +449,7 @@
 						</li>
 						<li>
 							<div class="catalog_item">ДИСКИ</div>
-							<div class="checkbox checkbox_2">
+							<div class="checkbox_2">
 								<input type="checkbox" name="disks" id="brand2_1">
 								<label for="brand2_1" id="label_1"><span><i class="fa fa-check" aria-hidden="true"></i></span>Бренд 1</label>
 								<br>
