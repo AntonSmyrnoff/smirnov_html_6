@@ -19,6 +19,7 @@
 	margin: 0 auto;
 	padding: 18px 46px 0 46px;
 	box-sizing: border-box;
+	font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 		/*----------------HEADER-----------------*/
@@ -32,8 +33,12 @@
 					display: flex;
 					justify-content: space-between;
 				}
+
+						.top-part a {
+							text-decoration: none;
+						}
 							
-						.phone {
+						.phone {			
 							width: 295px;	
 							margin-top: 2px;
 						    padding: 2px 0 0 6px;
@@ -41,7 +46,7 @@
 							
 								.phone p {
 									display: inline-block;
-									margin-bottom: -6px;
+									margin-bottom: -1px;
 								    
 								    letter-spacing: 0.44px;
 								    font-family: Arial;
@@ -51,97 +56,106 @@
 								    vertical-align: middle;
 								}
 
-								.fa-phone {
-									width: 21px;
-									height: 21px;
-									transform: rotate(10deg);
-									
-									border-radius: 10px;
-									
-									background: linear-gradient(to bottom, rgba(12,51,87,1) 0%, rgba(31,103,134,1) 100%);
-									
-									color: white;
-									text-align: center;
-								}
+										.fa-phone {
+											width: 21px;
+											height: 21px;
+											transform: rotate(10deg);
+											
+											border-radius: 10px;
+											
+											background: linear-gradient(to bottom, rgba(12,51,87,1) 0%, rgba(31,103,134,1) 100%);
+											
+											color: white;
+											text-align: center;
+										}
 
-								.fa-phone::before {
-									vertical-align: middle;
-								}
+										.fa-phone::before {
+											vertical-align: middle;
+										}
 
 						.avtoriz {
-							    width: 496px;
-							    height: 27px;
-							    box-sizing: border-box;
-							    margin-left: -7px;
-							    margin-top: 2px;
-							    display: flex;
-							    align-items: center;
-							    
-							    border-radius: 4px;
-							    border-top: 1px solid #a6c3cf;
-							    border-bottom: 1px solid #596d80;
-							    border-left: 1px solid #d4dde3;
-							    
-							    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-							    
-							    font-family: "Lucida Sans Unicode", Arial, sans-serif;
-							    font-size: 11px;
+						    width: 496px;
+						    height: 27px;
+						    box-sizing: border-box;
+						    margin: 2px 0 0 -5px;
+						    display: flex;
+						    align-items: center;
+						    
+						    border-radius: 4px;
+						    border-top: 1px solid #a6c3cf;
+						    border-bottom: 1px solid #596d80;
+						    border-left: 1px solid #d4dde3;
+						    
+						    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+						    
+						    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+						    font-size: 11px;
 
-							    box-shadow: 3px 2px 3px 0px rgba(150, 150, 150, 0.75);
+						    box-shadow: 2px 2px 3px 0px rgba(150, 150, 150, 0.75);
 						}
 
-								.fa-user {
-									color: white;
-								}
-
 								.avtoriz p:first-child {
-									margin: 2px 3px 0 7px;
+									margin: 1px 4px 0 7px;
 
 									font-size: 18px;
 								}
+								
+										.fa-user {
+											color: white;
+										}
 
 								.entry_reg {
 									vertical-align: middle;
 								}
 
-								#login,
-								#password {
-									width: 115px;
-								    height: 18px;
-								    padding-left: 5px;
-								    margin: -1px 3px 0 0;
-								    box-sizing: border-box;
-								    
-								    border: 1px solid #82949c;
-							    }
+										#login,
+										#password {
+											width: 115px;
+										    height: 18px;
+										    padding-left: 5px;
+										    margin: -1px 3px 0 0;
+										    box-sizing: border-box;
+										    
+										    border: 1px solid #82949c;
+									    }
 
-								#password {
-									width: 114px;
-									margin-right: 7px;
-								}
+										#password {
+											width: 114px;
+											margin-right: 7px;
+										}
 								
-											/*placeholder's style*/
-											::-webkit-input-placeholder {position: relative;
-																		 top: 30%;
-																		 transform: translateY(-50%);
-																		 font-size: 11px;
-																		 color: #97a2a6;
-																		 }
-											::-moz-placeholder          {position: relative;
-																		 top: 30%;
-																		 transform: translateY(-50%);
-																		 font-size: 11px;
-																		 color: #97a2a6;}/* Firefox 19+ */
-											:-moz-placeholder           {position: relative;
-																		 top: 30%;
-																		 transform: translateY(-50%);
-																		 font-size: 11px;
-																		 color: #97a2a6;}/* Firefox 18- */
-											:-ms-input-placeholder      {position: relative;
-																		 top: 30%;
-																		 transform: translateY(-50%);
-																		 font-size: 11px;
-																		 color: #97a2a6;}
+										/*placeholder's style*/
+										::-webkit-input-placeholder {
+											position: relative;
+											top: 30%;
+											transform: translateY(-50%);
+											font-size: 11px;
+											color: #97a2a6;
+										}
+
+										::-moz-placeholder {
+											position: relative;
+											top: 30%;
+											transform: translateY(-50%);
+											font-size: 11px;
+											color: #97a2a6;
+										}/* Firefox 19+ */
+										
+										:-moz-placeholder {
+											position: relative;
+											top: 30%;
+											transform: translateY(-50%);
+											font-size: 11px;
+											color: #97a2a6;
+										}/* Firefox 18- */
+										
+										:-ms-input-placeholder {
+											position: relative;
+											top: 30%;
+											transform: translateY(-50%);
+										 	font-size: 11px;
+											color: #97a2a6;
+										}
 
 								.entry {
 									margin-right: 20px;
@@ -149,41 +163,35 @@
 									color: #ffffff;
 								}
 
-								.entry a {
-									text-decoration: none;
-									color: #ffffff;
-									letter-spacing: -0.2px;
-								}
+										.entry a {
+											color: #ffffff;
+											letter-spacing: -0.2px;
+										}
 
 								.forget_pass {
-								    margin-top: 1px;
-								    margin-left: 1px;
-								    
 								    border-bottom: 1px solid #bfbfbf; /*for underline on required level under link*/
 
 								    line-height: 1;
 								}
 
-								.forget_pass a {
-									font-size: 12px;
-									color: #bfbfbf;
-									text-decoration: none;
-								}
+										.forget_pass a {
+											font-size: 12px;
+											color: #bfbfbf;
+										}
 
 						.navi {
-							    width: 75px;
-							    height: 19px;
-							    margin-top: 4px;
-							    margin-right: 7px;
-							    position: relative;
-							    
-							    border: 1px solid rgb(189, 196, 199);
-							    border-radius: 25px;
+						    width: 75px;
+						    height: 19px;
+							margin: 4px 7px 0 0;
+						    position: relative;
+						    
+						    border: 1px solid rgb(189, 196, 199);
+						    border-radius: 25px;
 
-							    background-color: rgb(255, 255, 255);
-  
-							    text-align: center;
-							    font-size: 12px;
+						    background-color: rgb(255, 255, 255);
+
+						    text-align: center;
+						    font-size: 12px;
 						}
 
 								.navi:after {	/*for box-shadow of top-left and bottom-right corners*/			
@@ -201,17 +209,14 @@
 								    box-shadow: 0px 1px 10px 0px #777;
 								}
 
-								.navi a {
-									text-decoration: none;
-								}
+										.fa-home, 
+										.fa-sitemap,
+										.fa-envelope-o {
+											margin: 3px 4px;
 
-								.fa-home, 
-								.fa-sitemap,
-								.fa-envelope-o {
-									margin: 3px 4px;
-
-									color: #76848a;
-								}
+											color: #76848a;
+										}
+				/* --------------END OF TOP-PART-------------- */
 
 				.picture {
 					height: 237px;
@@ -234,21 +239,20 @@
 							height: 100%;
 							width: 100%;
 						}
-				/*---------------END OF HEADER----------------*/
+		/*---------END OF HEADER----------*/
 
 
 		/*------------NAVBAR--------------*/
 		.main-menu {
 			width: 911px;
 			height: 34px;
-			margin-top: 9px;
-			margin-left: -2px;
+			margin: 9px 0 0 -2px;
 			box-sizing: border-box;
 			display: flex;
 			justify-content: flex-start;
 
 			border: 1px solid rgb(13, 22, 66);
-			border-radius: 4px;
+			border-radius: 5px;
 
 			background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
 			background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
@@ -256,25 +260,27 @@
 			box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
 		}
 
-				nav {
+				.main-menu a {
+					text-decoration: none;
+				}
+
+				.main-menu nav {
 					width: 500px;
 					margin-left: 131px;
 					display: flex;			
 				}
 
-						nav a {
+						.main-menu nav a {
 							padding: 0 13px;
 							display: flex;
 						  	justify-content: center;
 						  	flex-direction: column;
 
-						  	font-family: "Lucida Sans Unicode", Arial, sans-serif;
 						  	font-size: 14px;
-						  	text-decoration: none;
 						  	color: #b1bcc0;
 						}
 
-								nav a:hover {
+								.main-menu nav a:hover {
 									color: #ffffff;
 								}
 
@@ -307,7 +313,6 @@
 							}
 
 									.cart p:first-child a {
-										text-decoration: none;
 										color: #3993d2;
 									}
 
@@ -328,15 +333,37 @@
 									margin-left: 8px;
 								}	
 
-								/*------------END OF NAVBAR--------------*/
+		/*------------END OF NAVBAR--------------*/
 
+/*----------SEARCHING FIELD----------*/
 .searching_field {
 	display: flex;
 	justify-content: flex-start;
 	margin: 12px 0 0 3px;
 	font-family: Arial;
 }
-		.search_auto {
+
+		.searching_field select {
+			border-bottom: 0;
+			border-right: 0;
+			border-top: 1px solid #949494;
+			border-left: 1px solid #757575;
+			box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75);
+		}
+
+		.search>p:last-child {
+			display: block;
+			font-style: italic;
+			font-size: 14px;
+			align-self: flex-end;
+			margin-bottom: 5px;
+		}
+
+				.search>p:last-child a {
+					color: #154467;
+				} 
+
+		.search_auto {	/*-----searching by auto-----*/
 			width: 413px;
 		    height: 132px;
 		    border: 1px solid rgb(156, 156, 157);
@@ -349,7 +376,8 @@
 		    justify-content: space-between;
 		}
 
-				.head {
+				.head,
+				.obj {
 					font-size: 12px;
 					color: #154467;
 					font-weight: bold;
@@ -357,92 +385,48 @@
 
 				.obj {
 					font-size: 10px;
-					color: #154467;
-					font-weight: bold;
-					margin-left: 17px;
-    				margin-right: 17px;
-    				margin-top: 3px;
-
+    				margin: 3px 17px 0 17px;
 				}
 
 				.auto_disks,
 				.auto_tires {
 					width: 192px;
-					font-family: Arial;
 					font-size: 10px;
 					margin-left: 14px;
-
-
 				}
 
-				.auto_list,
-				.model_list,
-				.year,
-				.compl {
-					display: flex;
-					justify-content: space-between;
-					margin-bottom: 2px;
-					position: relative;
-				}
-
-						.auto_list label,
-						.model_list label,
-						.year label,
-						.compl label {
-							align-self: center;
-
+						.car_list {
+							display: flex;
+							justify-content: space-between;
+							margin-bottom: 2px;
 						}
 
+								.car_list label {
+									align-self: center;
+								}
 
+										.of_what {
+											font-size: 9px;
+											color: #77858b;
+										}
 
+								.car_list select {
+									width: 100px;
+									height: 17px;
+									margin-right: 17px;
+								}
 
-				.of_what {
-					font-size: 9px;
-					color: #77858b;
-				}
+								.year select {
+									width: 57px;
+									margin-right: 60px;
+								}		
 
-				.auto_disks select,
-				.auto_tires select {
-					width: 100px;
-					height: 17px;
-					margin-right: 17px;
-					border-bottom: 0;
-					border-right: 0;
-					border-top: 1px solid #949494;
-					border-left: 1px solid #757575;
-					box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75); 
-				}
-
-					.search>p:last-child {
-						display: block;
-						font-style: italic;
-						font-size: 14px;
-						align-self: flex-end;
-						margin-bottom: 5px;
-					}
-
-					.search_auto p:last-child {
-						margin-left: 330px;
-					}
-
-						.search>p:last-child a{
-							color: #154467;
-						}
-
-
-
-
-				#year,
-				#year1 {
-					width: 57px;
-					margin-right: 60px;
-				}
-
-
-
+				.search_auto p:last-child {
+					margin-left: 330px;
+				} /*-----end of searching by auto-----*/
 
 		
-		.search_tires {
+		.search_tires {	/*-----searching tires-----*/
 			width: 191px;
   			height: 134px;
   			margin-left: 15px;
@@ -455,12 +439,6 @@
 
 		.search_tires select {
 					    height: 17px;
-					    /* margin-right: 17px; */
-					    border-bottom: 0;
-					    border-right: 0;
-					    border-top: 1px solid #949494;
-					    border-left: 1px solid #757575;
-					    box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75);
 					    align-self: center;
 					}
 
@@ -626,11 +604,6 @@
 				    	width: 57px;
 					    height: 17px;
 					    margin-right: 17px;
-					    border-bottom: 0;
-					    border-right: 0;
-					    border-top: 1px solid #949494;
-					    border-left: 1px solid #757575;
-					    box-shadow: inset 1px 1px 1px 0px rgba(104, 104, 104, 0.75);
 					    align-self: center;
 					}    
 
@@ -661,7 +634,7 @@
 			width: 191px;
 		}
 
-				.production {
+				.catalog_head {
 					width: 183px;
 				    height: 26px;
 				    margin-top: 3px;
@@ -675,7 +648,7 @@
 					box-shadow: 2px 3px 3px 0px rgba(150, 150, 150, 0.75);
 				}
 
-						.production p {
+						.catalog_head p {
 							
 							font-size: 13px;
 							margin: 2px 0 0 -1px;
@@ -685,7 +658,7 @@
 							justify-content: center;
 						}
 
-						.production p:last-child {
+						.catalog_head p:last-child {
 							margin-left: 3px;
 						}
 
